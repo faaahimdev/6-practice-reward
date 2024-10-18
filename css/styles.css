@@ -11,7 +11,6 @@ body {
 }
 
 /* banner section style starts here */
-
 .banner-container {
     max-width: 1320px;
     min-height: 600px;
@@ -62,23 +61,26 @@ body {
     height: 806px;
     margin: 100px auto;
 }
+
 .second-section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .second-section-content h1 {
     color: rgb(255, 0, 0);
-    font-family: Inter;
+
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
     letter-spacing: 0%;
 }
+
 .second-section-content p {
     color: rgb(255, 0, 0);
-    font-family: Inter;
+
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
@@ -86,18 +88,75 @@ body {
     margin-top: 40px;
     margin-bottom: 16px;
 }
+
 .second-section-content h3 {
     color: rgb(7, 2, 17);
-    font-family: Inter;
+
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 0%;
     margin-bottom: 48px;
 }
-.second-second-image img{
+
+.second-second-image img {
     width: 100%;
     height: 500px;
 }
 
 /* second section ends here */
+
+/* midnight party starts here */
+.section-three-container {
+    max-width: 1320px;
+    height: 600px;
+    margin: 100px auto;
+    background-image: url('../images/partynight-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+}
+.section-three-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    padding-left: 124px;
+}
+.section-three-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 124px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.section-three-content span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 158px;
+    padding-bottom: 142px;
+}
+.section-three-image {
+    width: 319.83px;
+    height: 464.66px;
+    margin: 68.11px 138px 67.23px 0px;
+}
+/* midnight party ends here */
