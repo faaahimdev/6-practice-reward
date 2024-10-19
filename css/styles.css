@@ -179,6 +179,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .details p {
     font-size: 32px;
     font-weight: 600;
@@ -186,9 +187,11 @@ body {
     letter-spacing: 0%;
     text-align: center;
 }
+
 .details span {
     color: rgb(255, 0, 0);
 }
+
 .details button {
     width: 150px;
     height: 40px;
@@ -204,3 +207,17 @@ body {
 }
 
 /* details section end start */
+
+/* section five start */
+.section-five {
+    width: 1320px;
+    height: 463px;
+    margin: 100px auto;
+    background-color: rgba(31, 31, 31, 0.11);
+}
+
+/* section five end */
+
+/* section six holiday sale start */
+
+/* section six holiday end start */
